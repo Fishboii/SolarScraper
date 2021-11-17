@@ -2,4 +2,5 @@ import scrape
 import time
 while True:
     scrape.scrape(True)
-    time.wait(300)
+    time.sleep(300)
+    print("\nwaiting for image update")
