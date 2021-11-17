@@ -6,3 +6,5 @@ Specifically built for scraping "https://www.ema.gov.sg/solarmap.aspx" for resea
 csv file has seperated regions into districts of Singapore (1-28), with the addition of jurong islands and sentosa
 
 main.py will run every 300s, which is when image updates
+
+time recorded is in UTC
