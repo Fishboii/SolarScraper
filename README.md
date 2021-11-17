@@ -2,4 +2,3 @@
 Scrape and process pixels of a solar irradiance map
 
 Specifically built for scraping "https://www.ema.gov.sg/solarmap.aspx" for research on solar irradiance and intermittency  
-Built on repl.it so extra files like poety.lock may be present
