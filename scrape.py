@@ -37,6 +37,8 @@ def scrape(deletefile = False):
     #set of points in image to get colours of
     clr = []
     points = [(1389,1120), (1313,1141), (1212,1082), (1179,1149), (990,1049), (1338,1036), (1389,1015), (1368,952), (1292,986), (1128,948), (1208,877), (1397,868), (1502,826), (1590,919), (1569,1011), (1871,872), (2039,726), (1783,684), (1527,654), (1191,742), (977,885), (570,847), (881,747), (583,583), (906,499), (1107,591), (1162,310), (1405,541), (444,1233), (1254,1267), (58,54), (2442,163), (2446,1384)]
+    #specific points are documented in points.txt, will move to README in future
+    #TODO update points to readme
 
     for i in points:
         clr.append(im.getpixel((i[0], i[1])))
